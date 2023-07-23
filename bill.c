@@ -20,7 +20,7 @@ struct orders
 void generateBillHeader(char name[50], char date[30])
 {
     printf("\n\n");
-    printf("\t    ADV. Restaurant");
+    printf("\t    King's Restaurant");
     printf("\n\t   -----------------");
     printf("\nDate:%s", date);
     printf("\nInvoice To: %s", name);
@@ -72,7 +72,7 @@ int main()
 
         float total = 0;
         int invoiceFound = 0;
-        printf("\t============ADV. RESTAURANT============");
+        printf("\t============KING'S RESTAURANT============");
         printf("\n\nPlease select your prefered operation");
         printf("\n\n1.Generate Invoice");
         printf("\n2.Show all Invoices");
@@ -175,7 +175,7 @@ int main()
             break;
 
         case 4:
-            printf("\n\t\t Bye Bye :)\n\n");
+            printf("\n\t\t Bye ByE...)\n\n");
             exit(0);
             break;
 
@@ -186,7 +186,7 @@ int main()
         printf("\nDo you want to perform another operation?[y/n]:\t");
         scanf("%s", &contFlag);
     }
-    printf("\n\t\t Bye Bye :)\n\n");
+    printf("\n\t\t Bye Bye...\n\n");
     printf("\n\n");
 
     return 0;
